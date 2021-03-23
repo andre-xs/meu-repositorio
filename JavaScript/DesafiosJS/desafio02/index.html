@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 02</title>
+    <style>
+        body {
+            background-color: #0033cc99;
+            text-align: center;
+        }
+        header {
+            font: normal 20pt arial;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Desafio de Boas-Vindas</h1>
+    </header>
+    <section>
+        <p><button onclick="boasvindas()">Inicie o Desafio</button></p>
+    </section>
+    <script>
+        function boasvindas(){
+            var nome = window.prompt('Qual é seu nome?')
+            var idade = window.prompt (`Olá ${nome}! Quantos anos você tem?`)
+            window.alert (`Acabei de conhecer ${nome}, que tem ${idade} anos de idade.`)
+        }
+    </script>
+</body>
+</html>
